@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  color: #2cb1bc;
+}
+.activeClass {
+  @apply bg-[#2cb1bc] text-white;
+}
+.big-sidebar {
+  @apply col-span-1 row-span-2 hidden md:block  shadow-sm bg-[#fff] dark:bg-[#333]  pr-5;
+}
+/* BUTTONS AND BADGES */
+.pending {
+  background: #fef3c7;
+  color: #f59e0b;
+}
+
+.interview {
+  background: #e0e8f9;
+  color: #647acb;
+}
+.declined {
+  background: #ffeeee;
+  color: #d66a6a;
+}
+.rafi {
+  background-color: #2db1bc;
+}
